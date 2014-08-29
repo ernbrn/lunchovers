@@ -1,28 +1,12 @@
-== README
+== LunchOvers
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+I am a web application called "Lunchovers". My purpose on earth is to remind your forgetful self to eat your leftovers 
+before they go bad. For me to be sucessful we need to work together. You tell me what food you have left over and what 
+your maiximum DOC (days of comfort) is and I'll alert you the morning of that last day to tell you that you really ought 
+to pack your leftovers for lunch. If you eat your leftovers before they go bad, you get money added to your wallet, which 
+you can save or save up to put towards your dream home, or take your special friend on a special date. It's whatever, it's 
+your money. It's also your food, so eat it.
 
-Things you may want to cover:
+Lunch. Leftovers. LunchOvers. Get it? 
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+My current pet project. 
