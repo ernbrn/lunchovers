@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title><%= content_for?(:title) ? yield(:title) : "foundation-rails" %></title>
+    <title><%= content_for?(:title) ? yield(:title) : "LunchOvers" %></title>
 
     <%= javascript_include_tag "vendor/modernizr" %>
     <%= csrf_meta_tags %>
   </head>
 
   <body>
-
+    <%= stylesheet_link_tag    "application" %>
     <%= yield %>
+    <%= javascript_include_tag "application" %>
   </body>
 </html>
