@@ -1,1 +1,19 @@
+<%if current_user == nil%>
+<%=render :partial => 'logged_out'%>
+<%else%>
 
+
+
+ <div class="large-2 right columns">
+   <br>
+   <%=link_to "My Bank", "#", class: 'button small round'%>
+   <%=link_to "LunchOlds", "#", class: 'button small round'%>
+   <%=link_to "Sign Out", destroy_user_session_path,:method => :delete, class: 'button small round'%>
+
+ </div>
+
+ <%= render :partial => 'meals/form'%>
+
+
+
+<%end%>

@@ -1,0 +1,18 @@
+<div class="row">
+  <div class="large-4 large-centered columns">
+<h2>New Leftover</h2>
+
+<div>
+<%= form_for(@meal) do |f| %>
+  <%= f.text_field :name, :placeholder => "Meal"%>
+
+</div>
+<div class="row">
+<div class="large-3 columns">
+  <%= f.number_field :value, :placeholder => "$" %>
+  <div><%= f.submit "ok!", class:'button small'%></div>
+</div>
+</div>
+<% end %>
+</div>
+</div>
